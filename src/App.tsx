@@ -1,4 +1,4 @@
-import './App.css'
+import './main.scss'
 
 function App() {
 
@@ -6,6 +6,7 @@ function App() {
     <>
       <div>
         <p>Here goes App.tsx</p>
+        <section className={'section'}>sectionn</section>
       </div>
     </>
   )
