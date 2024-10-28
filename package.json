@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "compile": "sass main.scss style.css",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
